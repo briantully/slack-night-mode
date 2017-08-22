@@ -40,17 +40,25 @@
   }
 
   #msg_input {
-    background: padding-box $color-shade-light;
+    background: padding-box $color-shade-darkest;
     border-color: $color-shade-mid;
     border-left: 0;
     color: $base-font-color;
+
+    .ql-editor {
+      padding-left: 15px;
+    }
+
+    &.ql-container .ql-placeholder {
+      padding-left: 15px !important;
+    }
   }
 }
 
 #msg_input {
   @include placeholder;
 
-  background: $color-shade-light;
+  background: $color-shade-darkest;
   border-color: $color-shade-mid;
   color: $base-font-color;
 

@@ -11,3 +11,13 @@
   -webkit-filter: brightness(0.6) contrast(3) invert(1) sepia(0.5);
   filter: brightness(0.6) contrast(3) invert(1) sepia(0.5);
 }
+
+
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle {
+    color: #949494 !important;
+    font-weight: 400 !important;
+}
+
+.c-member .presence.active {
+    color: #75bc49 !important;
+}

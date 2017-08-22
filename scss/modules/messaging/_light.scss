@@ -15,6 +15,13 @@
     }
 
     .message_content {
+
+      .message_content_header {
+        border-top: 1px solid #333;
+        padding-top: 4px;
+        margin-top: 1px;
+      }
+
       .message_sender {
         color: $base-font-color !important;
       }
