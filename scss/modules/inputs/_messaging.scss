@@ -40,7 +40,7 @@
   }
 
   #msg_input {
-    background: padding-box $color-shade-light;
+    background: padding-box $color-shade-dark;
     border-color: $color-shade-mid;
     border-left: 0;
     color: $base-font-color;
@@ -50,7 +50,7 @@
 #msg_input {
   @include placeholder;
 
-  background: $color-shade-light;
+  background: $color-shade-dark;
   border-color: $color-shade-mid;
   color: $base-font-color;
 
@@ -60,10 +60,10 @@
 
   &:focus,
   &.focus {
-    border-color: $color-shade-dark;
+    border-color: $color-shade-mid;
 
     + #primary_file_button:not(:hover):not(.active) {
-      border-color: $color-shade-dark;
+      border-color: $color-shade-light;
     }
   }
 
@@ -90,13 +90,13 @@
 }
 
 #primary_file_button {
-  background: padding-box $color-shade-light;
+  background: padding-box $color-shade-dark;
   border-color: $color-shade-mid;
 
   &.active,
   &:hover {
     background: $color-shade-mid;
-    border-color: $color-shade-dark;
+    border-color: $color-shade-light;
     color: $color-highlight;
   }
 }

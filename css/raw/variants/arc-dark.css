@@ -374,9 +374,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #2a2f39; }
 
-#msg_form #msg_input { background: padding-box #6b6f79; border-color: #454c5c; border-left: 0; color: #d3dae3; }
+#msg_form #msg_input { background: padding-box #2a2f39; border-color: #454c5c; border-left: 0; color: #d3dae3; }
 
-#msg_input { background: #6b6f79; border-color: #454c5c; color: #d3dae3; }
+#msg_input { background: #2a2f39; border-color: #454c5c; color: #d3dae3; }
 
 #msg_input::-webkit-input-placeholder { color: #d3dae3 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -386,9 +386,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input[data-placeholder]:empty::before { color: #d3dae3 !important; }
 
-#msg_input:focus, #msg_input.focus { border-color: #2a2f39; }
+#msg_input:focus, #msg_input.focus { border-color: #454c5c; }
 
-#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #2a2f39; }
+#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #6b6f79; }
 
 #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #454c5c; }
 
@@ -398,9 +398,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #2a2f39; color: #d3dae3; }
 
-#primary_file_button { background: padding-box #6b6f79; border-color: #454c5c; }
+#primary_file_button { background: padding-box #2a2f39; border-color: #454c5c; }
 
-#primary_file_button.active, #primary_file_button:hover { background: #454c5c; border-color: #2a2f39; color: #949494; }
+#primary_file_button.active, #primary_file_button:hover { background: #454c5c; border-color: #6b6f79; color: #949494; }
 
 .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #454c5c; }
 

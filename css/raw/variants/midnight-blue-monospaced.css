@@ -374,9 +374,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #181818; }
 
-#msg_form #msg_input { background: padding-box #282828; border-color: #202020; border-left: 0; color: #00b9f2; }
+#msg_form #msg_input { background: padding-box #181818; border-color: #202020; border-left: 0; color: #00b9f2; }
 
-#msg_input { background: #282828; border-color: #202020; color: #00b9f2; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+#msg_input { background: #181818; border-color: #202020; color: #00b9f2; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
 #msg_input::-webkit-input-placeholder { color: #00b9f2 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -386,9 +386,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input[data-placeholder]:empty::before { color: #00b9f2 !important; }
 
-#msg_input:focus, #msg_input.focus { border-color: #181818; }
+#msg_input:focus, #msg_input.focus { border-color: #202020; }
 
-#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #181818; }
+#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #282828; }
 
 #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #202020; }
 
@@ -398,9 +398,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #181818; color: #00b9f2; }
 
-#primary_file_button { background: padding-box #282828; border-color: #202020; }
+#primary_file_button { background: padding-box #181818; border-color: #202020; }
 
-#primary_file_button.active, #primary_file_button:hover { background: #202020; border-color: #181818; color: #1793d1; }
+#primary_file_button.active, #primary_file_button:hover { background: #202020; border-color: #282828; color: #1793d1; }
 
 .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #202020; }
 
