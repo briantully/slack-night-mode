@@ -195,3 +195,7 @@
     color: $base-font-color;
   }
 }
+
+.c-member__display-name, .c-team__handle, .c-usergroup__handle {
+  color: $color-highlight !important;
+}

@@ -284,6 +284,7 @@
   .highlighter_underlay .modifier.incomplete::before { background: #4d394b; border: 1px solid #372c36; }
   .highlighter_underlay .selected .keyword::before, .highlighter_underlay .selected .modifier::before { background: rgba(135, 100, 132, 0.25); border: #61485e; }
   .highlighter_underlay .ghost_text { color: #f0d9ed; }
+  .c-member__display-name, .c-team__handle, .c-usergroup__handle { color: #a3839f !important; }
   .pickmeup { background: #3e313c; border: 1px solid #4d394b; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
   .pickmeup .pmu-instance .pmu-button { color: #f0d9ed; }
   .pickmeup .pmu-instance .pmu-today.pmu-selected, .pickmeup .pmu-instance .pmu-today:hover { background: #4d394b !important; }
