@@ -319,6 +319,7 @@
   .highlighter_underlay .modifier.incomplete::before { background: #2a2f39; border: 1px solid #1d2027; }
   .highlighter_underlay .selected .keyword::before, .highlighter_underlay .selected .modifier::before { background: rgba(133, 137, 145, 0.25); border: #6b6f79; }
   .highlighter_underlay .ghost_text { color: #d3dae3; }
+  .c-member__display-name, .c-team__handle, .c-usergroup__handle { color: #949494 !important; }
   .pickmeup { background: #404552; border: 1px solid #2a2f39; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
   .pickmeup .pmu-instance .pmu-button { color: #d3dae3; }
   .pickmeup .pmu-instance .pmu-today.pmu-selected, .pickmeup .pmu-instance .pmu-today:hover { background: #2a2f39 !important; }

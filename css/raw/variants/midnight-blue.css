@@ -626,6 +626,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .highlighter_underlay .ghost_text { color: #00b9f2; }
 
+.c-member__display-name, .c-team__handle, .c-usergroup__handle { color: #1793d1 !important; }
+
 .pickmeup { background: #000; border: 1px solid #181818; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
 
 .pickmeup .pmu-instance .pmu-button { color: #00b9f2; }
