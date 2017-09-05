@@ -525,9 +525,14 @@
   ts-message .meta.msg_inline_img_toggler .member, ts-message .meta.msg_inline_img_toggler .service_link, ts-message .meta.msg_inline_file_preview_toggler .member, ts-message .meta.msg_inline_file_preview_toggler .service_link { color: #1793d1 !important; }
   ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_img_toggler a, ts-message .meta.msg_inline_file_preview_toggler .msg_inline_media_toggler, ts-message .meta.msg_inline_file_preview_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_file_preview_toggler a { color: #1793d1 !important; }
   ts-message .pinned_item_message_header { color: #1793d1; }
+<<<<<<< HEAD
   ts-message .mention { background: #303030 !important; color: #00b9f2 !important; }
   ts-message .internal_member_link { background: #000 !important; border: 0; color: #1793d1 !important; }
   ts-message .internal_member_link:hover { color: #299bd4 !important; }
+=======
+  ts-message .mention { background: #282828; border: 1px solid #303030; border-radius: 3px; color: #00b9f2; padding: 0 3px; }
+  ts-message .comment .mention { background: #282828 !important; }
+>>>>>>> Fixes issue with coloring on .comment .mention
   ts-message.show_recap:not(.is_pinned) { background: rgba(16, 16, 16, 0.15); }
   ts-message.show_recap:not(.is_pinned):hover { background: rgba(16, 16, 16, 0.15); }
   .ephemeral.message .message_content { color: #00b9f2; }

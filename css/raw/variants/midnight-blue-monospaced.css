@@ -1044,6 +1044,8 @@ ts-message .internal_member_link { background: #000 !important; border: 0; color
 
 ts-message .internal_member_link:hover { color: #299bd4 !important; }
 
+ts-message .comment .mention { background: #282828 !important; }
+
 ts-message.show_recap:not(.is_pinned) { background: rgba(16, 16, 16, 0.15); }
 
 ts-message.show_recap:not(.is_pinned):hover { background: rgba(16, 16, 16, 0.15); }
