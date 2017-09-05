@@ -452,6 +452,7 @@
   ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_img_toggler a, ts-message .meta.msg_inline_file_preview_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_file_preview_toggler a { color: #d3d0c8 !important; }
   ts-message .pinned_item_message_header { color: #d3d0c8; }
   ts-message .mention { background: #747369; border: 1px solid #a09f93; border-radius: 3px; color: #f2f0ec; padding: 0 3px; }
+  ts-message .comment .mention { background: #747369 !important; }
   ts-message.show_recap:not(.is_pinned) { background: rgba(45, 45, 45, 0.15); }
   ts-message.show_recap:not(.is_pinned):hover { background: rgba(45, 45, 45, 0.15); }
   ts-mention { background: rgba(160, 159, 147, 0.1); color: #f2f0ec; }

@@ -167,6 +167,10 @@ ts-message {
     padding: 0 3px;
   }
 
+  .comment .mention {
+    background: $color-shade-light !important;
+  }
+
   &.show_recap:not(.is_pinned) {
     background: rgba($color-shade-darkest, 0.15);
 
