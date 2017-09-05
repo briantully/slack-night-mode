@@ -1100,6 +1100,8 @@ ts-message .internal_member_link { background: #222 !important; border: 0; color
 
 ts-message .internal_member_link:hover { color: #c7c7c7 !important; }
 
+ts-message .comment .mention { background: #545454 !important; }
+
 ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
 
 ts-message.show_recap:not(.is_pinned):hover { background: rgba(0, 0, 0, 0.15); }
