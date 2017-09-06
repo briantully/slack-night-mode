@@ -374,9 +374,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #2a2f39; }
 
-#msg_form #msg_input { background: padding-box #2a2f39; border-color: #454c5c; border-left: 0; color: #d3dae3; }
+#msg_form #msg_input { background: padding-box #1d2027; border-color: #454c5c; border-left: 0; color: #d3dae3; }
 
-#msg_input { background: #2a2f39; border-color: #454c5c; color: #d3dae3; }
+#msg_form #msg_input .ql-editor { padding-left: 15px; }
+
+#msg_form #msg_input.ql-container .ql-placeholder { padding-left: 15px !important; }
+
+#msg_input { background: #1d2027; border-color: #454c5c; color: #d3dae3; }
 
 #msg_input::-webkit-input-placeholder { color: #d3dae3 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -1353,6 +1357,8 @@ div.CodeMirror span.CodeMirror-nonmatchingbracket { color: #bf360c; }
 .light_theme ts-message.unprocessed { color: rgba(211, 218, 227, 0.75); }
 
 .light_theme ts-message .msg_right_link { color: #90939b; }
+
+.light_theme ts-message .message_content .message_content_header { border-top: 1px solid #333; padding-top: 4px; margin-top: 1px; }
 
 .light_theme ts-message .message_content .message_sender { color: #d3dae3 !important; }
 
@@ -2507,6 +2513,10 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .ma
 .monkey_scroll_bar { z-index: 99; }
 
 .client_header_icon { -moz-filter: brightness(0.6) contrast(3) invert(1) sepia(0.5); -webkit-filter: brightness(0.6) contrast(3) invert(1) sepia(0.5); filter: brightness(0.6) contrast(3) invert(1) sepia(0.5); }
+
+.c-member__display-name, .c-team__display-name, .c-usergroup__handle { color: #949494 !important; font-weight: 400 !important; }
+
+.c-member .presence.active { color: #75bc49 !important; }
 
 nav.top.persistent { background: #2a2f39; }
 
