@@ -186,20 +186,20 @@
   #message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #363636 !important; }
   #message_edit_form.offline #primary_file_button { border-color: #424242; color: #949494; }
   #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
-  #msg_form #msg_input { background: padding-box #545454; border-color: #424242; border-left: 0; color: #e6e6e6; }
-  #msg_input { background: #545454; border-color: #424242; color: #e6e6e6; }
+  #msg_form #msg_input { background: padding-box #363636; border-color: #424242; border-left: 0; color: #e6e6e6; }
+  #msg_input { background: #363636; border-color: #424242; color: #e6e6e6; }
   #msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
   #msg_input::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   #msg_input::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   #msg_input[data-placeholder]:empty::before { color: #e6e6e6 !important; }
-  #msg_input:focus, #msg_input.focus { border-color: #363636; }
-  #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
+  #msg_input:focus, #msg_input.focus { border-color: #424242; }
+  #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #545454; }
   #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
   #msg_input.offline:not(.pretend-to-be-online) { background-color: #363636 !important; color: #949494; }
   #msg_input.disabled, #msg_input.ql-disabled { background-color: #363636; border-color: #363636; color: #949494; }
   #msg_input_message { background-color: #363636; color: #e6e6e6; }
-  #primary_file_button { background: padding-box #545454; border-color: #424242; }
-  #primary_file_button.active, #primary_file_button:hover { background: #424242; border-color: #363636; color: #949494; }
+  #primary_file_button { background: padding-box #363636; border-color: #424242; }
+  #primary_file_button.active, #primary_file_button:hover { background: #424242; border-color: #545454; color: #949494; }
   .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
   #footer, #footer.footer_msg_input { background: #222; }
   #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #363636 !important; border-color: #363636 !important; }
@@ -284,6 +284,7 @@
   .highlighter_underlay .modifier.incomplete::before { background: #363636; border: 1px solid #000; }
   .highlighter_underlay .selected .keyword::before, .highlighter_underlay .selected .modifier::before { background: rgba(130, 130, 130, 0.25); border: #545454; }
   .highlighter_underlay .ghost_text { color: #e6e6e6; }
+  .c-member__display-name, .c-team__handle, .c-usergroup__handle { color: #949494 !important; }
   .pickmeup { background: #222; border: 1px solid #363636; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
   .pickmeup .pmu-instance .pmu-button { color: #e6e6e6; }
   .pickmeup .pmu-instance .pmu-today.pmu-selected, .pickmeup .pmu-instance .pmu-today:hover { background: #363636 !important; }
@@ -451,6 +452,7 @@
   ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_img_toggler a, ts-message .meta.msg_inline_file_preview_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_file_preview_toggler a { color: #949494 !important; }
   ts-message .pinned_item_message_header { color: #949494; }
   ts-message .mention { background: #545454; border: 1px solid #828282; border-radius: 3px; color: #e6e6e6; padding: 0 3px; }
+  ts-message .comment .mention { background: #545454 !important; }
   ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
   ts-message.show_recap:not(.is_pinned):hover { background: rgba(0, 0, 0, 0.15); }
   ts-mention { background: rgba(130, 130, 130, 0.1); color: #e6e6e6; }

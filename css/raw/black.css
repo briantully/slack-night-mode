@@ -390,9 +390,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input[data-placeholder]:empty::before { color: #e6e6e6 !important; }
 
-#msg_input:focus, #msg_input.focus { border-color: #363636; }
+#msg_input:focus, #msg_input.focus { border-color: #424242; }
 
-#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
+#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #545454; }
 
 #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
 
@@ -402,9 +402,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #363636; color: #e6e6e6; }
 
-#primary_file_button { background: padding-box #545454; border-color: #424242; }
+#primary_file_button { background: padding-box #363636; border-color: #424242; }
 
-#primary_file_button.active, #primary_file_button:hover { background: #424242; border-color: #363636; color: #949494; }
+#primary_file_button.active, #primary_file_button:hover { background: #424242; border-color: #545454; color: #949494; }
 
 .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
 
@@ -573,6 +573,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .highlighter_underlay .selected .keyword::before, .highlighter_underlay .selected .modifier::before { background: rgba(130, 130, 130, 0.25); border: #545454; }
 
 .highlighter_underlay .ghost_text { color: #e6e6e6; }
+
+.c-member__display-name, .c-team__handle, .c-usergroup__handle { color: #949494 !important; }
 
 .pickmeup { background: #222; border: 1px solid #363636; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); }
 
@@ -907,6 +909,8 @@ ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_i
 ts-message .pinned_item_message_header { color: #949494; }
 
 ts-message .mention { background: #545454; border: 1px solid #828282; border-radius: 3px; color: #e6e6e6; padding: 0 3px; }
+
+ts-message .comment .mention { background: #545454 !important; }
 
 ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
 

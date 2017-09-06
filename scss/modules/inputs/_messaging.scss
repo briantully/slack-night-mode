@@ -68,10 +68,10 @@
 
   &:focus,
   &.focus {
-    border-color: $color-shade-dark;
+    border-color: $color-shade-mid;
 
     + #primary_file_button:not(:hover):not(.active) {
-      border-color: $color-shade-dark;
+      border-color: $color-shade-light;
     }
   }
 
@@ -98,13 +98,13 @@
 }
 
 #primary_file_button {
-  background: padding-box $color-shade-light;
+  background: padding-box $color-shade-dark;
   border-color: $color-shade-mid;
 
   &.active,
   &:hover {
     background: $color-shade-mid;
-    border-color: $color-shade-dark;
+    border-color: $color-shade-light;
     color: $color-highlight;
   }
 }
