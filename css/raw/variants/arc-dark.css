@@ -2518,6 +2518,59 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .ma
 
 .c-member .presence.active { color: #75bc49 !important; }
 
+.c-icon.c-presence.c-presence--active.c-icon--presence-online { color: #75bc49 !important; }
+
+/*
+.p-channel_sidebar {
+  background: #3B4048;
+  color: rgb(196,198,200);
+}
+
+.p-channel_sidebar__channel,
+.p-channel_sidebar__link,
+.p-channel_sidebar__channel:link,
+.p-channel_sidebar__link:link,
+.p-channel_sidebar__channel:visited,
+.p-channel_sidebar__link:visited,
+.p-channel_sidebar__channel:hover,
+.p-channel_sidebar__link:hover {
+  color: rgb(196,198,200);
+}
+.p-channel_sidebar__channel--selected,
+.p-channel_sidebar__link--selected,
+.p-channel_sidebar__channel--selected:link,
+.p-channel_sidebar__link--selected:link,
+.p-channel_sidebar__channel--selected:visited,
+.p-channel_sidebar__link--selected:visited,
+.p-channel_sidebar__channel--selected:hover,
+.p-channel_sidebar__link--selected:hover,
+.p-channel_sidebar__channel--selected + .p-channel_sidebar__close {
+  color: #FFFFFF;
+}
+
+.p-channel_sidebar__channel:hover,
+.p-channel_sidebar__link:hover,
+.p-channel_sidebar__close_container:hover {
+  background: #4A5664;
+}
+
+.p-channel_sidebar__header {
+  color: rgb(196,198,200);
+}
+/*
+
+/* Override presence icons */
+.p-channel_sidebar__channel--im .c-presence--active, .p-channel_sidebar__channel--im-slackbot:before { color: #94E864 !important; }
+
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence, .p-channel_sidebar__channel--im-slackbot.p-channel_sidebar__channel--selected:before { color: #FFFFFF; }
+
+.p-channel_sidebar__channel--im.p-channel_sidebar__channel--selected .c-presence--active { color: #94E864 !important; }
+
+.p-channel_sidebar__channel--im .c-presence--away { color: #c4c6c8 !important; }
+
+/* .p-channel_sidebar__channel--selected, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected, .p-channel_sidebar__link--selected:hover { background: #282c34; } .p-channel_sidebar__channel--selected:before, .p-channel_sidebar__channel--selected:hover:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__channel--selected:after, .p-channel_sidebar__channel--selected:hover:after, .p-channel_sidebar__link--selected:after, .p-channel_sidebar__link--selected:after { color: #FFFFFF; } .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #78AF8F; } .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #FFFFFF; } */
+/** `opacity: 1` color overrides */
+/* .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--unread:not(.p-channel_sidebar__link--selected) .p-channel_sidebar__name, .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name, .p-channel_sidebar__section_heading_label--clickable:hover, .p-channel_sidebar__quickswitcher:hover { color: #FFFFFF; } */
 nav.top.persistent { background: #2a2f39; }
 
 nav.top.persistent .logo { background-position: 50% 0 !important; }
