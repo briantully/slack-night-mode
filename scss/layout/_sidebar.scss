@@ -81,7 +81,7 @@
 
   .c-custom_scrollbar__thumb_vertical,
   .c-scrollbar__bar {
-    background: $color-shade-light;
+    background: $color-shade-darkest;
   }
 
   &__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,

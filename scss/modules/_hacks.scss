@@ -92,6 +92,15 @@
   color: rgb(196,198,200) !important;
 }
 
+.c-scrollbar:hover .c-scrollbar__bar,
+.c-scrollbar__bar:active {
+    opacity: 0.35 !important;
+}
+
+.p-channel_sidebar .c-custom_scrollbar__thumb_vertical,
+.p-channel_sidebar .c-scrollbar__bar {
+  background: #000 !important;
+}
 
 // .p-channel_sidebar__channel--selected,
 // .p-channel_sidebar__channel--selected:hover,
@@ -116,12 +125,8 @@
 .p-channel_sidebar__banner--mentions {
   background: #78AF8F;
 }
-
-.p-channel_sidebar .c-custom_scrollbar__thumb_vertical,
-.p-channel_sidebar .c-scrollbar__bar {
-  background: #FFFFFF;
-}
 */
+
 /** `opacity: 1` color overrides */
 /*
 .p-channel_sidebar__channel--unread:not(.p-channel_sidebar__channel--muted):not(.p-channel_sidebar__channel--selected) .p-channel_sidebar__name,
