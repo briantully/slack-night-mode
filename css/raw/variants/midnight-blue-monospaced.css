@@ -188,7 +188,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #00b9f2; }
 
 .loading #loading-zone { background: #000; }
 
-#loading_welcome { background-image: none; }
+#loading_welcome { background-image: none; background-color: #181818; }
 
 #loading_message p { color: #00b9f2; }
 
@@ -204,7 +204,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #00b9f2; }
 
 .infinite_spinner_bg, .infinite_spinner_blue { stroke: #00b9f2; }
 
-body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #181818; }
+body.loading #team_menu, body.loading #quick_switcher_btn, body.loading #team_menu_overlay, body.loading #client_body, body.loading .client_main_container, body.loading #col_channels_overlay, body.loading #col_channels { background-color: #181818; }
 
 input[type=text], input[type=password], input[type=datetime], input[type=datetime-local], input[type=date], input[type=month], input[type=time], input[type=week], input[type=number], input[type=email], input[type='url'], input[type=tel], input[type=color], input[type=search] { background-color: #282828; border-color: #101010; color: #00b9f2; }
 

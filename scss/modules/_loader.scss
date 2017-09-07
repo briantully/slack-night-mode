@@ -6,6 +6,7 @@
 
 #loading_welcome {
   background-image: none;
+  background-color: $color-shade-dark;
 }
 
 #loading_message {
@@ -47,6 +48,8 @@ body.loading {
   #team_menu,
   #quick_switcher_btn,
   #team_menu_overlay,
+  #client_body,
+  .client_main_container,
   #col_channels_overlay,
   #col_channels {
     background-color: $color-shade-dark;
