@@ -44,6 +44,7 @@
     border-color: $color-shade-mid;
     border-left: 0;
     color: $base-font-color;
+    box-shadow: 0px 0px 25px rgba(255,255,255,0.35) !important;
 
     .ql-editor {
       padding-left: 15px;
