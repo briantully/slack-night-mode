@@ -41,10 +41,10 @@
 
   #msg_input {
     background: padding-box $color-shade-darkest;
-    border-color: $color-shade-mid;
+    border-color: $color-shade-lightest;
     border-left: 0;
     color: $base-font-color;
-    box-shadow: 0px 0px 25px rgba(255,255,255,0.35) !important;
+    box-shadow: 0px 0px 25px rgba(255,255,255,0.25) !important;
 
     .ql-editor {
       padding-left: 15px;
@@ -72,12 +72,12 @@
     border-color: $color-shade-mid;
 
     + #primary_file_button:not(:hover):not(.active) {
-      border-color: $color-shade-light;
+      border-color: $color-shade-lightest;
     }
   }
 
   + #primary_file_button:not(:hover):not(.active) {
-    border-color: $color-shade-mid;
+    border-color: $color-shade-lightest;
   }
 
   &.offline:not(.pretend-to-be-online) {

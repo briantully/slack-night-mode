@@ -374,7 +374,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #181818; }
 
-#msg_form #msg_input { background: padding-box #101010; border-color: #202020; border-left: 0; color: #00b9f2; box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.35) !important; }
+#msg_form #msg_input { background: padding-box #101010; border-color: #303030; border-left: 0; color: #00b9f2; box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.25) !important; }
 
 #msg_form #msg_input .ql-editor { padding-left: 15px; }
 
@@ -392,9 +392,9 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input:focus, #msg_input.focus { border-color: #202020; }
 
-#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #282828; }
+#msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #303030; }
 
-#msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #202020; }
+#msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #303030; }
 
 #msg_input.offline:not(.pretend-to-be-online) { background-color: #181818 !important; color: #1793d1; }
 
