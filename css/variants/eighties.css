@@ -355,6 +355,7 @@
   .channel_header .blue_on_hover:hover { color: #f2f0ec; }
   #client_body:not(.onboarding)::before { background: #2d2d2d; border-bottom: 1px solid #393939; }
   .messages_header { color: #f2f0ec; }
+  .messages_header #channel_topic_text { background: #2d2d2d; }
   .channel_title .channel_name_container .channel_name { color: #f2f0ec; }
   .channel_title .channel_name_container .channel_name.muted { color: #d3d0c8; }
   .channel_title .channel_name_container .ts_icon_shared_channel.away, .channel_title .channel_name_container .mpdm_member.away { color: #d3d0c8; }
@@ -420,7 +421,7 @@
   ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply) { background: rgba(45, 45, 45, 0.1); }
   ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).is_pinned, ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply).show_recap:not(.is_pinned) { background: rgba(45, 45, 45, 0.2); }
   ts-message.is_pinned { background: rgba(45, 45, 45, 0.15); }
-  ts-message .timestamp { color: #6699cc; }
+  ts-message .timestamp { color: #a09f93; }
   ts-message .edited, ts-message .temp_msg_controls { color: #d3d0c8; }
   ts-message .only_visible_to_user { color: #d3d0c8; }
   ts-message.ephemeral { color: #f2f0ec; }
@@ -488,7 +489,7 @@
   #msgs_scroller_div #end_display_div #end_display_meta { color: #d3d0c8; }
   #msgs_scroller_div #end_display_div #end_display_meta h1 { color: #f2f0ec; }
   #msgs_scroller_div #end_display_div p { color: #f2f0ec; }
-  .member_mentions_options { background-color: #2d2d2d; border-top: 1px solid #393939; }
+  .internal_member_link { background-color: #2d2d2d !important; border: 1px solid #515151; }
   .dm_badge .dm_badge_meta { color: #f2f0ec; }
   .dm_badge a { color: #6699cc; }
   .dm_badge a.member_preview_link { color: #6699cc; }

@@ -724,6 +724,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .messages_header { color: #e6e6e6; }
 
+.messages_header #channel_topic_text { background: #222; }
+
 .channel_title .channel_name_container .channel_name { color: #e6e6e6; }
 
 .channel_title .channel_name_container .channel_name.muted { color: #949494; }
@@ -972,7 +974,7 @@ ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--f
 
 ts-message.is_pinned { background: rgba(0, 0, 0, 0.15); }
 
-ts-message .timestamp { color: #949494; }
+ts-message .timestamp { color: #828282; }
 
 ts-message .temp_msg_controls { color: #949494; }
 
@@ -1108,7 +1110,7 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 #msgs_scroller_div #end_display_div p { color: #e6e6e6; }
 
-.member_mentions_options { background-color: #000; border-top: 1px solid #363636; }
+.internal_member_link { background-color: #000 !important; border: 1px solid #424242; }
 
 .dm_badge .dm_badge_meta { color: #e6e6e6; }
 

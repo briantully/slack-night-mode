@@ -15,6 +15,9 @@
 
 .messages_header {
   color: $base-font-color;
+  #channel_topic_text {
+    background: $color-base;
+  }
 }
 
 .channel_title {

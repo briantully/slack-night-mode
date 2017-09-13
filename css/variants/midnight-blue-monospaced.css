@@ -368,6 +368,7 @@
   .channel_header .blue_on_hover:hover { color: #00b9f2; }
   #client_body:not(.onboarding)::before { background: #000; border-bottom: 1px solid #181818; box-shadow: inset 1px 0 0 0 #000; }
   .messages_header { color: #00b9f2; }
+  .messages_header #channel_topic_text { background: #000; }
   .channel_title .channel_name_container .channel_name { color: #00b9f2; }
   .channel_title .channel_name_container .channel_name.muted { color: #1793d1; }
   .channel_title .channel_name_container .ts_icon_shared_channel.away, .channel_title .channel_name_container .mpdm_member.away { color: #1793d1; }
@@ -492,10 +493,15 @@
   ts-message.active .meta, ts-message.message--focus .meta, ts-message:hover .meta { color: #1793d1 !important; }
   ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--focus .meta.msg_inline_file_preview_toggler a, ts-message:hover .meta.msg_inline_file_preview_toggler a { color: #1793d1 !important; }
   ts-message.is_pinned { background: rgba(16, 16, 16, 0.15); }
+<<<<<<< HEAD
   ts-message .timestamp { color: #1793d1; }
   ts-message .temp_msg_controls { color: #1793d1; }
   ts-message .edited { color: rgba(23, 147, 209, 0.8); }
   ts-message:hover .edited { color: #1793d1; }
+=======
+  ts-message .timestamp { color: #303030; }
+  ts-message .edited, ts-message .temp_msg_controls { color: #1793d1; }
+>>>>>>> Fixing mentions of other people.
   ts-message .only_visible_to_user { color: #1793d1; }
   ts-message.ephemeral { color: #00b9f2; }
   ts-message .bot_label { background: #101010; color: #1793d1; }
@@ -564,7 +570,7 @@
   #msgs_scroller_div #end_display_div #end_display_meta { color: #1793d1; }
   #msgs_scroller_div #end_display_div #end_display_meta h1 { color: #00b9f2; }
   #msgs_scroller_div #end_display_div p { color: #00b9f2; }
-  .member_mentions_options { background-color: #101010; border-top: 1px solid #181818; }
+  .internal_member_link { background-color: #101010 !important; border: 1px solid #202020; }
   .dm_badge .dm_badge_meta { color: #00b9f2; }
   .dm_badge a { color: #1793d1; }
   .dm_badge a.member_preview_link { color: #1793d1; }
