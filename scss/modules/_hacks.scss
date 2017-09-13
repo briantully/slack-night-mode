@@ -102,6 +102,33 @@
   background: #000 !important;
 }
 
+.feature_name_tagging_client #edit_topic_inner:before {
+  background: $color-shade-dark !important;
+}
+
+.feature_name_tagging_client .comment .mention,
+.feature_name_tagging_client .ql-editor .mention,
+.feature_name_tagging_client ts-message .mention {
+    background: #77966D !important;
+    color: #fff !important;
+}
+
+.feature_name_tagging_client .app_preview_link_slug.mention,
+.feature_name_tagging_client .internal_member_link.mention,
+.feature_name_tagging_client .internal_user_group_link.mention,
+.feature_name_tagging_client ts-mention.mention {
+  background: #912F56 !important;
+  color: #fff !important;
+}
+
+.feature_name_tagging_client .app_preview_link_slug,
+.feature_name_tagging_client .internal_member_link,
+.feature_name_tagging_client .internal_user_group_link,
+.feature_name_tagging_client ts-mention {
+    background: #3B4048 !important;
+    color: #fff !important;
+}
+
 // .p-channel_sidebar__channel--selected,
 // .p-channel_sidebar__channel--selected:hover,
 // .p-channel_sidebar__link--selected,

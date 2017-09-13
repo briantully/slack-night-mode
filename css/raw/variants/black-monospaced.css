@@ -1166,7 +1166,7 @@ ts-message .reply_bar:hover { background: #222; border-color: #000; }
 
 #archives_return a:hover { color: rgba(230, 230, 230, 0.8); }
 
-#messages_unread_status { background: #545454; }
+#messages_unread_status { background: #446a92; }
 
 #messages_unread_status:hover { background: #828282; }
 
@@ -2545,6 +2545,14 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .ma
 .c-scrollbar:hover .c-scrollbar__bar, .c-scrollbar__bar:active { opacity: 0.35 !important; }
 
 .p-channel_sidebar .c-custom_scrollbar__thumb_vertical, .p-channel_sidebar .c-scrollbar__bar { background: #000 !important; }
+
+.feature_name_tagging_client #edit_topic_inner:before { background: #363636 !important; }
+
+.feature_name_tagging_client .comment .mention, .feature_name_tagging_client .ql-editor .mention, .feature_name_tagging_client ts-message .mention { background: #77966D !important; color: #fff !important; }
+
+.feature_name_tagging_client .app_preview_link_slug.mention, .feature_name_tagging_client .internal_member_link.mention, .feature_name_tagging_client .internal_user_group_link.mention, .feature_name_tagging_client ts-mention.mention { background: #912F56 !important; color: #fff !important; }
+
+.feature_name_tagging_client .app_preview_link_slug, .feature_name_tagging_client .internal_member_link, .feature_name_tagging_client .internal_user_group_link, .feature_name_tagging_client ts-mention { background: #3B4048 !important; color: #fff !important; }
 
 /* .p-channel_sidebar__channel--selected:before, .p-channel_sidebar__channel--selected:hover:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__link--selected:before, .p-channel_sidebar__channel--selected:after, .p-channel_sidebar__channel--selected:hover:after, .p-channel_sidebar__link--selected:after, .p-channel_sidebar__link--selected:after { color: #FFFFFF; } .p-channel_sidebar__badge, .p-channel_sidebar__banner--mentions { background: #78AF8F; } */
 /** `opacity: 1` color overrides */
