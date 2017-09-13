@@ -342,7 +342,7 @@ ts-message {
   }
 
   .timestamp {
-    color: $base-link-color;
+    color: $color-shade-lightest;
   }
 
   .temp_msg_controls {
@@ -662,9 +662,9 @@ ts-mention {
   }
 }
 
-.member_mentions_options {
-  background-color: $color-shade-darkest;
-  border-top: 1px solid $color-shade-dark;
+.internal_member_link {
+  background-color: $color-shade-darkest !important;
+  border: 1px solid $color-shade-mid;
 }
 
 .dm_badge {
