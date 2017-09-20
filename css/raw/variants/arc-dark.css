@@ -1096,11 +1096,15 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
+<<<<<<< HEAD
 ts-message .mention { background: #858991 !important; color: #d3dae3 !important; }
 
 ts-message .internal_member_link { background: #404552 !important; border: 0; color: #90939b !important; }
 
 ts-message .internal_member_link:hover { color: #90939b !important; }
+=======
+ts-message .mention { background: #6b6f79 !important; border: 1px solid #858991; border-radius: 3px; color: #d3dae3; padding: 0 3px; }
+>>>>>>> Adjust mentions.
 
 ts-message .comment .mention { background: #6b6f79 !important; }
 
