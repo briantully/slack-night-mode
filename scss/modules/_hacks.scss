@@ -141,6 +141,13 @@
     color: $color-shade-lightest !important;
 }
 
+#details_tab .feature_sli_channel_insights .channel_purpose_section .channel_purpose_text {
+  color: $color-shade-lightest !important;
+}
+
+#details_tab .feature_sli_channel_insights .channel_created_section .creator_link {
+  color: $base-link-color !important;
+}
 
 // .p-channel_sidebar__channel--selected,
 // .p-channel_sidebar__channel--selected:hover,

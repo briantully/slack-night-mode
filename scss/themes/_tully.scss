@@ -5,10 +5,12 @@ $tully-blue-dark: #446a92;
 
 $color-shade-darkest: #111;
 $color-shade-dark: #282c34;
+$color-shade-light: #545454 !default;
+$color-shade-lightest: #828282 !default;
 
 $base-link-color: $tully-blue;
-$base-link-color-active: hotpink;
-$base-link-color-hover: hotpink;
+$base-link-color-active: $color-shade-light;
+$base-link-color-hover: #77966D;
 
 pre {
     background: #111 !important;
