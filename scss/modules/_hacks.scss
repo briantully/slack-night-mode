@@ -153,6 +153,20 @@
   background: #ccc !important;
 }
 
+.app_preview_link_slug, .internal_member_link, .internal_user_group_link, ts-mention {
+  background: #3B4048 !important;
+  color: #fff !important;
+}
+
+.app_preview_link_slug:hover, .internal_member_link:hover, .internal_user_group_link:hover, ts-mention:hover {
+  background: #3B4048 !important;
+  color: #ccc !important;
+}
+
+#edit_topic_inner:before {
+    background: none !important;
+}
+
 // .p-channel_sidebar__channel--selected,
 // .p-channel_sidebar__channel--selected:hover,
 // .p-channel_sidebar__link--selected,
