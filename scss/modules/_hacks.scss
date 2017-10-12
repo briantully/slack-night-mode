@@ -167,6 +167,10 @@
     background: none !important;
 }
 
+input[type=checkbox] {
+    -webkit-transform: scale(1.5,1.5) !important;
+}
+
 // .p-channel_sidebar__channel--selected,
 // .p-channel_sidebar__channel--selected:hover,
 // .p-channel_sidebar__link--selected,
