@@ -2572,7 +2572,17 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .ma
 
 input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
-.btn_attachment_text { color: #2c2d30 !important; }
+.btn.btn_attachment { background-color: #747369 !important; }
+
+.c-channel_insights__date_heading::before { background-color: #545454 !important; }
+
+.c-channel_insights__date_heading span { background-color: #545454 !important; color: #ccc !important; }
+
+.c-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) { background-color: #2c2d30 !important; border: none !important; }
+
+.c-channel_insights__message--truncate::before { background: linear-gradient(180deg, transparent, #222 90%) !important; }
+
+#client-ui .file_list_item.file_list_item--redesign { border-color: #545454 !important; }
 
 nav.top.persistent { background: #393939; }
 
