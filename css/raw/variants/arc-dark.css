@@ -356,17 +356,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form #msg_input { background: padding-box #2a2f39; border-color: #454c5c; border-left: 0; color: #d3dae3; }
 
-<<<<<<< HEAD
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #d3dae3; }
 
 #msg_form .msg_mentions_button { color: #949494; }
 
 #msg_form .msg_mentions_button:hover { color: #d3dae3; }
 
-#msg_input { background: #6b6f79; border-color: #454c5c; color: #d3dae3; }
-=======
 #msg_input { background: #2a2f39; border-color: #454c5c; color: #d3dae3; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
 
 #msg_input::-webkit-input-placeholder { color: #d3dae3 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -390,15 +386,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #2a2f39; color: #d3dae3; }
 
-<<<<<<< HEAD
-#primary_file_button { background: padding-box #6b6f79; border-color: #454c5c; color: #949494; }
+#primary_file_button { background: padding-box #2a2f39; border-color: #454c5c; color: #949494; }
 
-#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #454c5c; border-color: #2a2f39; color: #d3dae3; }
-=======
-#primary_file_button { background: padding-box #2a2f39; border-color: #454c5c; }
+#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #454c5c; border-color: #6b6f79; color: #949494; }
 
-#primary_file_button.active, #primary_file_button:hover { background: #454c5c; border-color: #6b6f79; color: #949494; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
+.feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #454c5c; }
 
 #footer, #footer.footer_msg_input { background: #404552; box-shadow: inset 1px 0 0 0 #404552; }
 
@@ -1096,15 +1088,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-<<<<<<< HEAD
-ts-message .mention { background: #858991 !important; color: #d3dae3 !important; }
-
-ts-message .internal_member_link { background: #404552 !important; border: 0; color: #90939b !important; }
-
-ts-message .internal_member_link:hover { color: #90939b !important; }
-=======
 ts-message .mention { background: #6b6f79 !important; border: 1px solid #858991; border-radius: 3px; color: #d3dae3; padding: 0 3px; }
->>>>>>> Adjust mentions.
 
 ts-message .comment .mention { background: #6b6f79 !important; }
 

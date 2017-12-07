@@ -176,16 +176,11 @@
   #message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #4d394b !important; }
   #message_edit_form.offline #primary_file_button { border-color: #4a3b49; color: #a3839f; }
   #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #4d394b; }
-<<<<<<< HEAD
-  #msg_form #msg_input { background: padding-box #61485e; border-color: #4a3b49; border-left: 0; color: #f0d9ed; }
+  #msg_form #msg_input { background: padding-box #4d394b; border-color: #4a3b49; border-left: 0; color: #f0d9ed; }
   #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #f0d9ed; }
   #msg_form .msg_mentions_button { color: #a3839f; }
   #msg_form .msg_mentions_button:hover { color: #f0d9ed; }
-  #msg_input { background: #61485e; border-color: #4a3b49; color: #f0d9ed; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
-=======
-  #msg_form #msg_input { background: padding-box #4d394b; border-color: #4a3b49; border-left: 0; color: #f0d9ed; }
   #msg_input { background: #4d394b; border-color: #4a3b49; color: #f0d9ed; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
   #msg_input::-webkit-input-placeholder { color: #f0d9ed !important; -webkit-filter: none; filter: none; opacity: 0.5; }
   #msg_input::-moz-placeholder { color: #f0d9ed !important; filter: none; opacity: 0.5; }
   #msg_input::placeholder { color: #f0d9ed !important; filter: none; opacity: 0.5; }
@@ -197,16 +192,10 @@
   #msg_input.offline:not(.pretend-to-be-online) { background-color: #4d394b !important; color: #a3839f; }
   #msg_input.disabled, #msg_input.ql-disabled { background-color: #4d394b; border-color: #4d394b; color: #a3839f; }
   #msg_input_message { background-color: #4d394b; color: #f0d9ed; }
-<<<<<<< HEAD
-  #primary_file_button { background: padding-box #61485e; border-color: #4a3b49; color: #a3839f; }
-  #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #4a3b49; border-color: #4d394b; color: #f0d9ed; }
-  #footer, #footer.footer_msg_input { background: #3e313c; box-shadow: inset 1px 0 0 0 #3e313c; }
-=======
-  #primary_file_button { background: padding-box #4d394b; border-color: #4a3b49; }
-  #primary_file_button.active, #primary_file_button:hover { background: #4a3b49; border-color: #61485e; color: #a3839f; }
+  #primary_file_button { background: padding-box #4d394b; border-color: #4a3b49; color: #a3839f; }
+  #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #4a3b49; border-color: #61485e; color: #a3839f; }
   .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #4a3b49; }
-  #footer, #footer.footer_msg_input { background: #3e313c; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
+  #footer, #footer.footer_msg_input { background: #3e313c; box-shadow: inset 1px 0 0 0 #3e313c; }
   #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #4d394b !important; border-color: #4d394b !important; }
   #footer_archives_table { color: #a3839f; }
   #typing_text { color: #a3839f; filter: none; }
@@ -521,15 +510,10 @@
   ts-message.active .meta, ts-message.message--focus .meta, ts-message:hover .meta { color: #a3839f !important; }
   ts-message.active .meta.msg_inline_file_preview_toggler a, ts-message.message--focus .meta.msg_inline_file_preview_toggler a, ts-message:hover .meta.msg_inline_file_preview_toggler a { color: #a3839f !important; }
   ts-message.is_pinned { background: rgba(55, 44, 54, 0.15); }
-<<<<<<< HEAD
-  ts-message .timestamp { color: #a3839f; }
+  ts-message .timestamp { color: #876484; }
   ts-message .temp_msg_controls { color: #a3839f; }
   ts-message .edited { color: rgba(163, 131, 159, 0.8); }
   ts-message:hover .edited { color: #a3839f; }
-=======
-  ts-message .timestamp { color: #876484; }
-  ts-message .edited, ts-message .temp_msg_controls { color: #a3839f; }
->>>>>>> Fixing mentions of other people.
   ts-message .only_visible_to_user { color: #a3839f; }
   ts-message.ephemeral { color: #f0d9ed; }
   ts-message .bot_label { background: #372c36; color: #a3839f; }
@@ -559,18 +543,8 @@
   ts-message .meta.msg_inline_img_toggler .member, ts-message .meta.msg_inline_img_toggler .service_link, ts-message .meta.msg_inline_file_preview_toggler .member, ts-message .meta.msg_inline_file_preview_toggler .service_link { color: #a3839f !important; }
   ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .meta.msg_inline_img_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_img_toggler a, ts-message .meta.msg_inline_file_preview_toggler .msg_inline_media_toggler, ts-message .meta.msg_inline_file_preview_toggler .ts_icon_dropbox, ts-message .meta.msg_inline_file_preview_toggler a { color: #a3839f !important; }
   ts-message .pinned_item_message_header { color: #a3839f; }
-<<<<<<< HEAD
-<<<<<<< HEAD
-  ts-message .mention { background: #876484 !important; color: #f0d9ed !important; }
-  ts-message .internal_member_link { background: #3e313c !important; border: 0; color: #a3839f !important; }
-  ts-message .internal_member_link:hover { color: #d4bbd1 !important; }
-=======
-  ts-message .mention { background: #61485e; border: 1px solid #876484; border-radius: 3px; color: #f0d9ed; padding: 0 3px; }
-=======
   ts-message .mention { background: #61485e !important; border: 1px solid #876484; border-radius: 3px; color: #f0d9ed; padding: 0 3px; }
->>>>>>> Adjust mentions.
   ts-message .comment .mention { background: #61485e !important; }
->>>>>>> Fixes issue with coloring on .comment .mention
   ts-message.show_recap:not(.is_pinned) { background: rgba(55, 44, 54, 0.15); }
   ts-message.show_recap:not(.is_pinned):hover { background: rgba(55, 44, 54, 0.15); }
   .ephemeral.message .message_content { color: #f0d9ed; }

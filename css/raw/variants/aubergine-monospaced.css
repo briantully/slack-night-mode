@@ -356,17 +356,13 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_form #msg_input { background: padding-box #4d394b; border-color: #4a3b49; border-left: 0; color: #f0d9ed; }
 
-<<<<<<< HEAD
 #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #f0d9ed; }
 
 #msg_form .msg_mentions_button { color: #a3839f; }
 
 #msg_form .msg_mentions_button:hover { color: #f0d9ed; }
 
-#msg_input { background: #61485e; border-color: #4a3b49; color: #f0d9ed; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
-=======
 #msg_input { background: #4d394b; border-color: #4a3b49; color: #f0d9ed; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
 
 #msg_input::-webkit-input-placeholder { color: #f0d9ed !important; -webkit-filter: none; filter: none; opacity: 0.5; }
 
@@ -390,15 +386,11 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #msg_input_message { background-color: #4d394b; color: #f0d9ed; }
 
-<<<<<<< HEAD
-#primary_file_button { background: padding-box #61485e; border-color: #4a3b49; color: #a3839f; }
+#primary_file_button { background: padding-box #4d394b; border-color: #4a3b49; color: #a3839f; }
 
-#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #4a3b49; border-color: #4d394b; color: #f0d9ed; }
-=======
-#primary_file_button { background: padding-box #4d394b; border-color: #4a3b49; }
+#primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #4a3b49; border-color: #61485e; color: #a3839f; }
 
-#primary_file_button.active, #primary_file_button:hover { background: #4a3b49; border-color: #61485e; color: #a3839f; }
->>>>>>> Adds eighties theme and customizes the theme a bit.
+.feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #4a3b49; }
 
 #footer, #footer.footer_msg_input { background: #3e313c; box-shadow: inset 1px 0 0 0 #3e313c; }
 
@@ -1096,15 +1088,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #a3839f; }
 
-<<<<<<< HEAD
-ts-message .mention { background: #876484 !important; color: #f0d9ed !important; }
-
-ts-message .internal_member_link { background: #3e313c !important; border: 0; color: #a3839f !important; }
-
-ts-message .internal_member_link:hover { color: #d4bbd1 !important; }
-=======
 ts-message .mention { background: #61485e !important; border: 1px solid #876484; border-radius: 3px; color: #f0d9ed; padding: 0 3px; }
->>>>>>> Adjust mentions.
 
 ts-message .comment .mention { background: #61485e !important; }
 
