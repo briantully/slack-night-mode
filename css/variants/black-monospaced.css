@@ -176,25 +176,37 @@
   #message_edit_form.offline #message-input, #message_edit_form.offline #primary_file_button { background-color: #363636 !important; }
   #message_edit_form.offline #primary_file_button { border-color: #424242; color: #949494; }
   #msg_form.focus #msg_input, #msg_form.focus #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
+<<<<<<< HEAD
   #msg_form #msg_input { background: padding-box #545454; border-color: #424242; border-left: 0; color: #e6e6e6; }
   #msg_form #msg_input.focus ~ .msg_mentions_button:not(.hover) { color: #e6e6e6; }
   #msg_form .msg_mentions_button { color: #949494; }
   #msg_form .msg_mentions_button:hover { color: #e6e6e6; }
   #msg_input { background: #545454; border-color: #424242; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+=======
+  #msg_form #msg_input { background: padding-box #363636; border-color: #424242; border-left: 0; color: #e6e6e6; }
+  #msg_input { background: #363636; border-color: #424242; color: #e6e6e6; font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
+>>>>>>> Adds eighties theme and customizes the theme a bit.
   #msg_input::-webkit-input-placeholder { color: #e6e6e6 !important; -webkit-filter: none; filter: none; opacity: 0.5; }
   #msg_input::-moz-placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   #msg_input::placeholder { color: #e6e6e6 !important; filter: none; opacity: 0.5; }
   #msg_input[data-placeholder]:empty::before { color: #e6e6e6 !important; }
-  #msg_input:focus, #msg_input.focus { border-color: #363636; }
-  #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #363636; }
+  #msg_input:focus, #msg_input.focus { border-color: #424242; }
+  #msg_input:focus + #primary_file_button:not(:hover):not(.active), #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #545454; }
   #msg_input + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
   #msg_input + #primary_file_button.focus-ring:not(:hover):not(.active) { border-color: #424242; }
   #msg_input.offline:not(.pretend-to-be-online) { background-color: #363636 !important; color: #949494; }
   #msg_input.disabled, #msg_input.ql-disabled { background-color: #363636; border-color: #363636; color: #949494; }
   #msg_input_message { background-color: #363636; color: #e6e6e6; }
+<<<<<<< HEAD
   #primary_file_button { background: padding-box #545454; border-color: #424242; color: #949494; }
   #primary_file_button.active, #primary_file_button.focus-ring, #primary_file_button:focus, #primary_file_button:hover { background: #424242; border-color: #363636; color: #e6e6e6; }
   #footer, #footer.footer_msg_input { background: #222; box-shadow: inset 1px 0 0 0 #222; }
+=======
+  #primary_file_button { background: padding-box #363636; border-color: #424242; }
+  #primary_file_button.active, #primary_file_button:hover { background: #424242; border-color: #545454; color: #949494; }
+  .feature_keyboard_navigation #msg_input + #primary_file_button:not(:hover):not(.active), .feature_keyboard_navigation #msg_input.focus + #primary_file_button:not(:hover):not(.active) { border-color: #424242; }
+  #footer, #footer.footer_msg_input { background: #222; }
+>>>>>>> Adds eighties theme and customizes the theme a bit.
   #footer.disabled #message-input, #footer.disabled #msg_input { background: padding-box #363636 !important; border-color: #363636 !important; }
   #footer_archives_table { color: #949494; }
   #typing_text { color: #949494; filter: none; }
