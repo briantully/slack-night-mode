@@ -135,6 +135,11 @@
 .channel_header,
 #client_body:not(.onboarding):before {
   box-shadow: inset 1px 0 0 0 $color-shade-darkest !important;
+  background: $color-shade-dark !important;
+}
+
+.channel_header {
+  background: #222 !important;
 }
 
 #msgs_scroller_div #end_display_div p.dm_explanation {
@@ -242,4 +247,91 @@ input[type=checkbox] {
 .feature_sli_file_search #search_results.messages .search_result_with_extract:first-child,
 .feature_sli_file_search #search_results.messages .search_result_with_extract:first-child:hover {
   border-top: 1px solid #000 !important;
+}
+
+/* Changes 1/10/2018 */
+
+.c-message__bot_label {
+    color: $color-shade-darkest !important;
+    background: $base-link-color-hover !important;
+}
+
+.c-message__body,
+.c-message_attachment {
+  color: $base-font-color !important;
+}
+
+.c-message--light .c-message__sender .c-message__sender_link {
+  color: $base-link-color !important;
+}
+
+.c-mrkdwn__member--link, .c-mrkdwn__subteam--link {
+  background: $color-shade-mid !important;
+  color: $base-font-color !important;
+}
+
+.c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover {
+  background: darkred !important;
+  color: $base-font-color !important;
+}
+
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
+    background-color: #3b4048 !important;
+}
+
+#flex_contents .heading_text {
+  color: $base-link-color !important;
+}
+
+.c-file_container {
+    background: $color-shade-dark !important;
+}
+
+.c-file_container--gradient::after {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), #222) !important;
+}
+
+.c-file__title {
+  color: $base-link-color !important;
+}
+
+.c-file__meta {
+    color: $color-shade-lightest !important;
+}
+
+.c-message_list__day_divider__line {
+    border-top: 1px solid $color-shade-darkest !important;
+}
+
+.c-message_list__day_divider__label__pill {
+  background: $color-shade-darkest !important;
+  color: $base-font-color !important;
+}
+
+.p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
+  background: $color-shade-dark !important;
+  border-bottom: 1px solid $color-shade-darkest !important;
+}
+
+.c-message--light {
+    padding: .75em 0 !important;
+}
+
+.c-message_list__unread_divider__label {
+  background: none !important;
+}
+
+.c-message--pinned, .c-message--sli_highlight:not(.c-message--sli_highlight_negative), .c-message--starred {
+  background: rgba(255, 64, 64, 0.1) !important;
+}
+
+.c-reaction {
+    background: #222 !important;
+    border: 1px solid #222 !important;
+}
+
+.p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
+    box-shadow: 0 32px #222 !important;
 }
