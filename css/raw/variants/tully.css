@@ -2615,7 +2615,7 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
 .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__member--mention, .c-mrkdwn__member--mention:hover, .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__subteam--mention, .c-mrkdwn__subteam--mention:hover { background: darkred !important; color: #e6e6e6 !important; }
 
-.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background-color: rgba(0, 0, 0, 0.25) !important; }
+.c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) { background-color: #1e2127 !important; }
 
 #flex_contents .heading_text { color: #6699cc !important; }
 
@@ -2650,6 +2650,12 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 #member_preview_scroller .member_data_table tr, #member_preview_web_container .member_data_table tr, #team_list .member_data_table tr, .menu_member_header .member_data_table tr { color: #828282 !important; }
 
 .c-member__display-name--large, .c-member__title--large { color: #6699cc !important; }
+
+.c-message_actions__container { background: #1e2127 !important; border: 0.0625rem solid rgba(0, 0, 0, 0.15); }
+
+.c-message_actions__button:hover { color: #0576b9; }
+
+.c-message_actions__button:active { background: #282c34 !important; }
 
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
