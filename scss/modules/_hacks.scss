@@ -365,8 +365,20 @@ input[type=checkbox] {
 }
 
 .c-message_actions__button:hover {
-  color: #0576b9;
+  color: $base-link-color !important;
 }
 .c-message_actions__button:active {
   background: $color-shade-dark !important;
+}
+
+.day_divider, .mention_day_container_div .day_divider {
+    color: $color-shade-lightest !important;
+
+    &:before {
+      border-color: $color-shade-lightest !important;
+    }
+}
+
+.light_theme ts-message .message_content .message_content_header .message_sender {
+    color: $base-link-color !important;
 }

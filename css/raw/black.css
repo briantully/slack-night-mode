@@ -2649,9 +2649,15 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
 .c-message_actions__container { background: #222 !important; border: 0.0625rem solid rgba(0, 0, 0, 0.15); }
 
-.c-message_actions__button:hover { color: #0576b9; }
+.c-message_actions__button:hover { color: #949494 !important; }
 
 .c-message_actions__button:active { background: #363636 !important; }
+
+.day_divider, .mention_day_container_div .day_divider, .mention_day_container_div .day_divider { color: #828282 !important; }
+
+.day_divider:before, .mention_day_container_div .day_divider:before, .mention_day_container_div .day_divider:before { border-color: #828282 !important; }
+
+.light_theme ts-message .message_content .message_content_header .message_sender { color: #949494 !important; }
 
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
