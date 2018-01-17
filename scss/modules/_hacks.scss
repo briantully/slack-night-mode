@@ -278,7 +278,7 @@ input[type=checkbox] {
 .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight),
 .c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight) {
-    background-color: #3b4048 !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
 }
 
 #flex_contents .heading_text {
@@ -334,4 +334,27 @@ input[type=checkbox] {
 
 .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list:not(.c-virtual_list--scrollbar):before, .p-message_pane .p-message_pane__top_banners:not(:empty) + div .c-message_list.c-virtual_list--scrollbar > .c-scrollbar__hider:before {
     box-shadow: 0 32px #222 !important;
+}
+
+#member_preview_scroller .member_details .member_name_and_presence .member_name,
+#member_preview_web_container .member_details .member_name_and_presence .member_name,
+.menu_member_header .member_details .member_name_and_presence .member_name {
+    color: #e6e6e6 !important;
+}
+
+#member_preview_scroller .member_details .member_title,
+#member_preview_web_container .member_details .member_title,
+.menu_member_header .member_details .member_title {
+  color: $base-link-color !important;
+}
+
+#member_preview_scroller .member_data_table tr,
+#member_preview_web_container .member_data_table tr,
+#team_list .member_data_table tr,
+.menu_member_header .member_data_table tr {
+  color: $color-shade-lightest !important;
+}
+
+.c-member__display-name--large, .c-member__title--large {
+  color: $base-link-color !important;
 }
