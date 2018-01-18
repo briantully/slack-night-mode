@@ -382,3 +382,12 @@ input[type=checkbox] {
 .light_theme ts-message .message_content .message_content_header .message_sender {
     color: $base-link-color !important;
 }
+
+
+.c-message__reply_bar:hover, .c-message__reply_bar--focus {
+    background-color: $color-shade-darkest !important;
+}
+
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
+  background-color: $color-shade-darkest !important;
+}

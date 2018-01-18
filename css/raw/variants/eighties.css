@@ -2659,6 +2659,10 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
 .light_theme ts-message .message_content .message_content_header .message_sender { color: #6699cc !important; }
 
+.c-message__reply_bar:hover, .c-message__reply_bar--focus { background-color: #2d2d2d !important; }
+
+.c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #2d2d2d !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
