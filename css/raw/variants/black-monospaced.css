@@ -2663,6 +2663,14 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread { background-color: #000 !important; }
 
+#whats_new_tab p { color: #e6e6e6 !important; }
+
+.searchable_member_list_filter .faux_input { color: #e6e6e6 !important; }
+
+.p-download_item__container .p-download_item__name_row { color: #949494 !important; }
+
+.p-downloads_list__shift_hint { background: linear-gradient(to bottom, transparent, #222 25%, #222) !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }

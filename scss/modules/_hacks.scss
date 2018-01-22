@@ -391,3 +391,19 @@ input[type=checkbox] {
 .c-message__reply_bar:hover .c-message__reply_bar_view_thread, .c-message__reply_bar--focus .c-message__reply_bar_view_thread {
   background-color: $color-shade-darkest !important;
 }
+
+#whats_new_tab p {
+  color: $base-font-color !important;
+}
+
+.searchable_member_list_filter .faux_input {
+  color: $base-font-color !important;
+}
+
+.p-download_item__container .p-download_item__name_row {
+  color: $base-link-color !important;
+}
+
+.p-downloads_list__shift_hint {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #222 25%, #222) !important;
+}
