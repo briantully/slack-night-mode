@@ -407,3 +407,7 @@ input[type=checkbox] {
 .p-downloads_list__shift_hint {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #222 25%, #222) !important;
 }
+
+.c-message--ephemeral {
+    background: $color-shade-darker !important;
+}
