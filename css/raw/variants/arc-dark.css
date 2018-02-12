@@ -2673,6 +2673,12 @@ input[type=checkbox] { -webkit-transform: scale(1.5, 1.5) !important; }
 
 .c-message--ephemeral { background: #222 !important; }
 
+ts-jumper ol li .channel_archived, ts-jumper ol li .channel_name, ts-jumper ol li .channel_not_member, ts-jumper ol li .member_real_name, ts-jumper ol li .searching, ts-jumper ol li .team_username, ts-jumper ol li .view_name { color: #d3dae3 !important; }
+
+ts-jumper ol:not(.keyboard_active) li:hover { background: #1d2027 !important; }
+
+ts-jumper ol li.highlighted { background: #1d2027 !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }

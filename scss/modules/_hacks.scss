@@ -411,3 +411,15 @@ input[type=checkbox] {
 .c-message--ephemeral {
     background: $color-shade-darker !important;
 }
+
+ts-jumper ol li .channel_archived, ts-jumper ol li .channel_name, ts-jumper ol li .channel_not_member, ts-jumper ol li .member_real_name, ts-jumper ol li .searching, ts-jumper ol li .team_username, ts-jumper ol li .view_name {
+    color: $base-font-color !important;
+}
+
+ts-jumper ol:not(.keyboard_active) li:hover {
+    background: $color-shade-darkest !important;
+}
+
+ts-jumper ol li.highlighted {
+  background: $color-shade-darkest !important;
+}
