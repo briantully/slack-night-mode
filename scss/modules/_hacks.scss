@@ -423,3 +423,9 @@ ts-jumper ol:not(.keyboard_active) li:hover {
 ts-jumper ol li.highlighted {
   background: $color-shade-darkest !important;
 }
+
+#file_reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+#reply_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container,
+.reply_input_container .reply_container_info .reply_broadcast_buttons_container .reply_broadcast_label_container {
+  color: $base-font-color !important;
+}
