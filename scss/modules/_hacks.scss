@@ -435,5 +435,15 @@ ts-jumper ol li.highlighted {
 }
 
 .menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_restriction, .menu_member_header .member_details .member_timezone_value {
-    color: #fff !important;
+  color: #fff !important;
+}
+
+.c-member_slug--link {
+    background: none !important;
+    color: #0576b9;
+}
+
+.c-member_slug--mention, .c-member_slug--mention:hover {
+  background: darkred !important;
+  color: $base-font-color !important;
 }

@@ -2685,6 +2685,10 @@ ts-jumper ol li.highlighted { background: #2d2d2d !important; }
 
 .menu_member_header .member_details .member_current_status, .menu_member_header .member_details .member_restriction, .menu_member_header .member_details .member_timezone_value { color: #fff !important; }
 
+.c-member_slug--link { background: none !important; color: #0576b9; }
+
+.c-member_slug--mention, .c-member_slug--mention:hover { background: darkred !important; color: #f2f0ec !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
