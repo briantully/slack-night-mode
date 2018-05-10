@@ -2689,6 +2689,18 @@ ts-jumper ol li.highlighted { background: #372c36 !important; }
 
 .c-member_slug--mention, .c-member_slug--mention:hover { background: darkred !important; color: #f0d9ed !important; }
 
+.c-team__display-name, .c-unified_member__display-name, .c-usergroup__handle { color: #717274 !important; }
+
+.channel_page_member_row:hover { background-color: rgba(0, 0, 0, 0.2) !important; border-color: rgba(0, 0, 0, 0.2) !important; }
+
+#autocomplete_menu.search_menu .results.unified .unified_autocomplete_item .text .token { background-color: rgba(0, 0, 0, 0.5) !important; color: #a3839f !important; }
+
+#autocomplete_menu.search_menu .results.unified .unified_autocomplete_item .text { color: #876484 !important; }
+
+.texty_legacy.texty_single_line_input .ql-editor, .texty_legacy.texty_single_line_input .ql-placeholder { color: #fff !important; }
+
+#autocomplete_menu.search_menu .results.unified li.highlighted .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .result_item_btn { background: rgba(0, 0, 0, 0.9) !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
