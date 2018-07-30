@@ -2705,6 +2705,10 @@ ts-jumper ol li.highlighted { background: #111 !important; }
 
 #autocomplete_menu.search_menu .results.unified li.highlighted .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:focus .result_item_btn, #autocomplete_menu.search_menu .results.unified:not(.keyboard_active) li:hover .result_item_btn { background: rgba(0, 0, 0, 0.9) !important; }
 
+#reply_container.upload_in_threads .inline_message_input_container { background-color: #111 !important; }
+
+.ts_tip .ts_tip_multiline_inner, .ts_tip:not(.ts_tip_multiline) .ts_tip_tip { background: rgba(0, 0, 0, 0.9) !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
