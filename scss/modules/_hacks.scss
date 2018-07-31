@@ -481,3 +481,13 @@ ts-jumper ol li.highlighted {
 .ts_tip .ts_tip_multiline_inner, .ts_tip:not(.ts_tip_multiline) .ts_tip_tip {
     background: rgba(0,0,0,.9) !important;
 }
+
+ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator),
+ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) {
+    background: $color-shade-darker !important;
+}
+
+.lazy_filter_select .lfs_list .lfs_item.active {
+    background-color: $base-font-color !important;
+}
