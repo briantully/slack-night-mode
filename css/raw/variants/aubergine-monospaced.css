@@ -2709,6 +2709,18 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .lazy_filter_select .lfs_list .lfs_item.active { background-color: #f0d9ed !important; }
 
+.menu ul li a { background: #282c34; border-bottom: 0; color: #f0d9ed !important; }
+
+.c-search_modal .popover > div { background-color: #222 !important; }
+
+.c-search__input_box { background-color: #f0d9ed !important; }
+
+.c-search__input_and_close { border-bottom: 1px solid #876484 !important; background: #f0d9ed !important; }
+
+.c-search_autocomplete__suggestion_item { color: #f0d9ed !important; }
+
+.c-search__container { color: #4d394b !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }

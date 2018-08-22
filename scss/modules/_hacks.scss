@@ -491,3 +491,35 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .lazy_filter_select .lfs_list .lfs_item.active {
     background-color: $base-font-color !important;
 }
+
+.menu ul li a {
+    background: #282c34;
+    border-bottom: 0;
+    color: $base-font-color !important;
+}
+
+.c-search_modal .popover>div {
+  background-color: $color-shade-darker !important;
+}
+
+.c-search__input_box {
+  background-color: $base-font-color !important;
+}
+
+.c-search__input_and_close {
+  border-bottom: 1px solid $color-shade-lightest !important;
+  background: $base-font-color !important;
+}
+
+.c-search_autocomplete__suggestion_item {
+  color: $base-font-color !important;
+}
+
+// .ql-container.texty_single_line_input {
+//   background: #999 !important;
+//   border: 1px solid #666 !important;
+// }
+
+.c-search__container {
+  color: $color-shade-dark !important;
+}
