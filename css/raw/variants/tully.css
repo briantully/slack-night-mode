@@ -2,6 +2,10 @@ pre { background: #111 !important; border: 1px solid #2d2d2d !important; color: 
 
 .channel_page_member_row:hover { background-color: rgba(96, 96, 96, 0.5) !important; border-color: rgba(96, 96, 96, 0.5) !important; }
 
+.c-search__input_box { background-color: #282c34 !important; }
+
+.c-search__input_and_close { background: #282c34 !important; }
+
 body { background: #222; color: #e6e6e6; }
 
 a { color: #6699cc; }
