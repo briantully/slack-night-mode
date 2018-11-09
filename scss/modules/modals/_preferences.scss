@@ -1,17 +1,4 @@
 #fs_modal.prefs_modal {
-  .section_rollup {
-    border-bottom: 1px solid $color-shade-dark;
-
-    &:first-of-type {
-      border-top: 1px solid $color-shade-dark;
-    }
-
-    &:hover:not(.active) {
-      background: $color-base;
-      color: $base-font-color;
-    }
-  }
-
   label.sound_option {
     &:hover:not(.disabled) ts-icon {
       color: $color-highlight;
@@ -77,6 +64,32 @@
       color: $base-font-color;
     }
   }
+
+  .notification_example {
+    &.mac {
+      background: $color-shade-darkest;
+      box-shadow: 0 1px 8px 2px $color-shade-dark;
+    }
+
+    &.linux,
+    &.windows {
+      background: $color-shade-darkest;
+      color: $base-font-color;
+    }
+  }
+
+  .badge_example {
+    background: $color-red;
+  }
+
+  .message_theme_preview {
+    border-bottom-color: $color-shade-darkest;
+    border-top-color: $color-shade-darkest;
+  }
+
+  .display_real_names_block_sample {
+    background: $color-base;
+  }
 }
 
 .sidebar_menu_list_item {
@@ -92,4 +105,12 @@
   &:not(.is_active):hover {
     background-color: $color-shade-dark;
   }
+}
+
+.jumbomoji_pref_disabled {
+  color: $color-highlight;
+}
+
+.jumbomoji_disabled_note {
+  color: rgba($color-highlight, 0.6);
 }

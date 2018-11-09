@@ -16,17 +16,14 @@
 @import "modules/menu/base";
 @import "modules/menu/autocomplete";
 @import "modules/menu/calendar";
-@import "modules/menu/direct-messaging";
 @import "modules/menu/filters";
 @import "modules/menu/popover";
 @import "modules/menu/tabcomplete";
 @import "modules/menu/team";
 
 @import "modules/header/base";
-@import "modules/header/banners";
 @import "modules/header/day-divider";
 @import "modules/header/search";
-@import "modules/header/topic-editor";
 
 @import "modules/messaging/base";
 @import "modules/messaging/attachments";
@@ -46,9 +43,13 @@
 @import "modules/flexpane/mentions";
 @import "modules/flexpane/reactions";
 @import "modules/flexpane/search";
+@import "modules/flexpane/shortcuts";
+@import "modules/flexpane/starred";
 @import "modules/flexpane/team";
 @import "modules/flexpane/threads";
 @import "modules/flexpane/whats-new";
+
+@import "modules/team/base";
 
 @import "modules/emojis/base";
 @import "modules/emojis/current_status";
@@ -82,6 +83,7 @@
 @import "modules/pages/admin/billing";
 @import "modules/pages/admin/customize";
 @import "modules/pages/admin/directory";
+@import "modules/pages/admin/enterprise";
 @import "modules/pages/admin/files";
 @import "modules/pages/admin/help";
 @import "modules/pages/admin/nav";
@@ -89,8 +91,6 @@
 @import "modules/pages/admin/tooltips";
 @import "modules/pages/api";
 @import "modules/pages/apps";
-@import "modules/pages/downloads";
 @import "modules/pages/legal";
 @import "modules/pages/oauth";
 @import "modules/pages/spaces";
-@import "modules/pages/status";

@@ -65,6 +65,7 @@
 
   .flexpane_tab_bar {
     li {
+      .tab,
       a {
         color: $base-link-color;
       }
@@ -120,4 +121,20 @@
 
 .msg_right_link {
   color: $base-link-color;
+}
+
+.message_location_label {
+  color: $color-highlight;
+}
+
+.p-flexpane {
+  &_header {
+    background: $color-shade-dark;
+    border-color: $color-shade-light;
+    color: $base-font-color;
+  }
+}
+
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
+  background: $color-shade-dark;
 }

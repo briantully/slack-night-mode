@@ -11,14 +11,6 @@
   }
 }
 
-#primary_file_button {
-  color: $color-highlight !important;
-
-  &:hover {
-    color: $base-font-color !important;
-  }
-}
-
 .file_list_item .icon,
 .file_reference .icon {
   background: $color-shade-lightest;
@@ -236,15 +228,15 @@ html.no_touch a.filetype_button_web:hover {
 }
 
 .unshare_link {
-  color: $base-link-color;
+  color: $base-link-color !important;
 
   i {
     &::before {
-      color: $color-highlight;
+      color: $color-highlight !important;
     }
 
     &.ts_icon_minus_circle_small:hover::before {
-      color: $color-red;
+      color: $color-red !important;
     }
   }
 }
@@ -261,6 +253,10 @@ html.no_touch a.filetype_button_web:hover {
       background: $color-shade-dark;
     }
   }
+}
+
+#file_preview_container .file_meta {
+  color: $color-highlight;
 }
 
 .file_page_meta {
@@ -388,4 +384,43 @@ html.no_touch a.filetype_button_web:hover {
 
 .active .tab_container .file_list_item {
   background-color: $color-base;
+}
+
+.c-file {
+  &__actions {
+    background: $color-shade-light;
+  }
+
+  &__action_button,
+  &__action_button:link,
+  &__action_button:focus,
+  &__action_button:hover {
+    background: $color-shade-light;
+    border-color: $color-shade-dark;
+    color: $white;
+  }
+}
+
+.p-file_details {
+  &__name,
+  &__share_channel {
+    color: $base-font-color;
+  }
+
+  &__meta_container .c-file__action_button {
+    color: $white;
+  }
+}
+
+.c-pillow_file {
+  &_container {
+    background: $color-shade-light;
+    border-color: $color-shade-dark;
+    color: $base-font-color;
+  }
+
+  &__description,
+  &__title {
+    color: $base-font-color;
+  }
 }

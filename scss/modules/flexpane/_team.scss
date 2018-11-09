@@ -51,16 +51,32 @@
   }
 }
 
-#member_preview_scroller,
-#member_preview_web_container {
+#member_preview_scroller {
   background-color: $color-shade-dark;
+
+  .member_data_table .current_status_cell {
+    .current_status_container {
+      .current_status_cover {
+        &:hover {
+          border-color: $color-shade-dark;
+        }
+      }
+
+      &:not(.active) {
+        .current_status_cover {
+          &.without_status_set {
+            .current_status_placeholder {
+              color: rgba($base-font-color, 0.35) !important;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
-#team_tab {
-  #member_preview_scroller,
-  #member_preview_web_container {
-    background-color: $color-base;
-  }
+#team_tab #member_preview_scroller {
+  background-color: $color-base;
 }
 
 #member_preview_scroller,
@@ -76,7 +92,8 @@
     }
 
     .member_restriction,
-    .member_timezone_value {
+    .member_timezone_value,
+    .member_current_status {
       color: $color-highlight;
 
       a {
@@ -143,22 +160,18 @@
   }
 }
 
-#member_preview_scroller .member_data_table .current_status_cell {
-  .current_status_container {
-    .current_status_cover {
-      &:hover {
-        border-color: $color-shade-dark;
-      }
-    }
+#client-ui .searchable_member_list .team_list_item {
+  border-bottom-color: $color-shade-darkest;
 
-    &:not(.active) {
-      .current_status_cover {
-        &.without_status_set {
-          .current_status_placeholder {
-            color: rgba($base-font-color, 0.35) !important;
-          }
-        }
-      }
-    }
+  &:hover {
+    background: $color-shade-light;
   }
+}
+
+.c-unified_member__display-name,
+.c-unified_member__secondary-name,
+.c-unified_member__title,
+.c-unified_member__other-names,
+.c-unified_member__other-names {
+  color: $base-font-color !important;
 }

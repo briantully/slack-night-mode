@@ -15,6 +15,20 @@
     border-top-color: $color-shade-dark;
   }
 
+  .conversation_details {
+    .member_name:hover {
+      color: $color-highlight;
+    }
+
+    .member_username:hover {
+      color: $base-font-color;
+    }
+
+    .member_info_timezone {
+      border-top-color: $color-shade-light;
+    }
+  }
+
   .channel_page_section {
     background: $color-base;
     border-top: 1px solid $color-shade-dark;
@@ -68,6 +82,17 @@
       }
     }
   }
+
+  .channel_section_label .ts_icon_info_circle {
+    color: $color-highlight;
+  }
+
+  .feature_sli_channel_insights {
+    .channel_created_section .creator_link,
+    .channel_purpose_section .channel_purpose_text {
+      color: $color-highlight;
+    }
+  }
 }
 
 .channel_page_member_row {
@@ -83,6 +108,11 @@
     a {
       color: $base-link-color;
     }
+  }
+
+  &:hover {
+    background-color: $color-shade-light;
+    border-color: $color-shade-dark;
   }
 }
 
@@ -117,5 +147,92 @@
 
   &.delete_mode {
     border-color: $color-red !important;
+  }
+}
+
+.c-channel_insights__title {
+  color: $base-font-color;
+}
+
+.c-channel_insights__section:not(.c-channel_insights__section--no_border) {
+  border-color: $color-shade-light;
+}
+
+.c-channel_insights__drawer_title {
+  color: $color-highlight;
+}
+
+.c-channel_insights__item--user {
+  .member_preview_link,
+  .message_sender {
+    color: $base-font-color !important;
+  }
+}
+
+.c-channel_insights__user_title {
+  color: $color-highlight;
+}
+
+.c-channel_insights__channel {
+  .channel_link {
+    color: $base-font-color;
+  }
+}
+
+.c-channel_insights__member_count {
+  color: $color-highlight;
+
+  .ts_icon_user {
+    color: $color-highlight;
+  }
+}
+
+.c-channel_insights {
+  .c-member__title {
+    color: $color-highlight;
+  }
+}
+
+.c-channel_insights__activity {
+  border-color: $color-shade-light;
+}
+
+.c-channel_insights_activity_bar_container {
+  &:hover {
+    background-color: rgba($color-shade-darkest, 0.05);
+
+    .c-channel_insights__activity_bar {
+      background-color: $color-shade-light;
+    }
+  }
+}
+
+.c-channel_insights__activity_bar {
+  background-color: rgba($color-shade-light, 0.5);
+}
+
+.c-channel_insights__message ts-message.standalone:not(.for_mention_display):not(.for_search_display):not(.for_top_results_search_display):not(.for_star_display) {
+  background-color: $color-base;
+  border-color: $color-shade-light;
+}
+
+.c-channel_insights__message--truncate {
+  &::before {
+    background: linear-gradient(180deg, transparent, $color-base 90%);
+  }
+}
+
+.c-channel_insights__highlights_description {
+  color: $color-highlight;
+}
+
+.c-channel_insights__date_heading {
+  span {
+    background-color: $color-base;
+    color: $base-font-color;
+  }
+
+  &::before {
+    background-color: $color-shade-light;
   }
 }
