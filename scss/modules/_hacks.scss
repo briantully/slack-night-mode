@@ -26,6 +26,13 @@
   background: $color-shade-darkest !important;
 }
 
+.c-unified_member,
+.c-unified_member--small {
+  .presence.active {
+      color: #75bc49 !important;
+  }
+}
+
 /*
 .p-channel_sidebar {
   background: #3B4048;
