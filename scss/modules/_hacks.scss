@@ -500,6 +500,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 
 .lazy_filter_select .lfs_list .lfs_item.active {
     background-color: $base-font-color !important;
+    color: $color-shade-dark !important;
 }
 
 .menu ul li a {
@@ -531,4 +532,8 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 
 .c-search__container {
   color: $color-shade-dark !important;
+}
+
+.feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected {
+  color: $base-font-color !important;
 }

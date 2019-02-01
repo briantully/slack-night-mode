@@ -3166,7 +3166,7 @@ ts-jumper ol li.highlighted { background: #000 !important; }
 
 ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) { background: #222222 !important; }
 
-.lazy_filter_select .lfs_list .lfs_item.active { background-color: #e6e6e6 !important; }
+.lazy_filter_select .lfs_list .lfs_item.active { background-color: #e6e6e6 !important; color: #363636 !important; }
 
 .menu ul li a { background: #282c34; border-bottom: 0; color: #e6e6e6 !important; }
 
@@ -3179,6 +3179,8 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 .ql-container.texty_single_line_input { background: #363636 !important; }
 
 .c-search__container { color: #363636 !important; }
+
+.feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected { color: #e6e6e6 !important; }
 
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 

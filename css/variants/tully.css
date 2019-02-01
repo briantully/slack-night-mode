@@ -1596,13 +1596,14 @@ pre { background: #111 !important; border: 1px solid #2d2d2d !important; color: 
   #reply_container.upload_in_threads .inline_message_input_container { background-color: #111 !important; }
   .ts_tip .ts_tip_multiline_inner, .ts_tip:not(.ts_tip_multiline) .ts_tip_tip { background: rgba(0, 0, 0, 0.9) !important; }
   ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message.message--focus:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator), ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.new_reply):not(.show_broadcast_indicator) { background: #1e2127 !important; }
-  .lazy_filter_select .lfs_list .lfs_item.active { background-color: #e6e6e6 !important; }
+  .lazy_filter_select .lfs_list .lfs_item.active { background-color: #e6e6e6 !important; color: #282c34 !important; }
   .menu ul li a { background: #282c34; border-bottom: 0; color: #e6e6e6 !important; }
   .c-search_modal .popover > div { background-color: #1e2127 !important; }
   .c-search__input_and_close { border-bottom: 1px solid #828282 !important; }
   .c-search_autocomplete__suggestion_item { color: #e6e6e6 !important; }
   .ql-container.texty_single_line_input { background: #282c34 !important; }
   .c-search__container { color: #282c34 !important; }
+  .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected { color: #e6e6e6 !important; }
   .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
   #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
   #flex_contents .heading_text { flex: 1; color: #2C2D30; margin: 0; font-size: 18px; font-weight: 900; line-height: inherit; }
