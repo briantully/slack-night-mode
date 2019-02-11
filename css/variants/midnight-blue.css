@@ -1910,19 +1910,7 @@
   #page .tag { background-color: #101010; border: 1px solid #181818; }
   #page .tag:hover { background-color: #282828 !important; }
   #page .app_desc_btn { background-color: #282828; color: #00b9f2; }
-<<<<<<< HEAD
-<<<<<<< HEAD
   #page .app_desc_expand_showing .app_profile_desc_fade { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%); }
-=======
-<<<<<<< HEAD
-  #page .app_desc_expand_showing .app_profile_desc_fade { background: linear-gradient(180deg, transparent 0, #000 100%); }
-=======
-  #page .app_desc_expand_showing .app_profile_desc_fade { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%); }
->>>>>>> Recompiling.
->>>>>>> Recompiling.
-=======
-  #page .app_desc_expand_showing .app_profile_desc_fade { background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, #000 100%); }
->>>>>>> Compiling themes.
   #page .service_panel { background-color: #181818; }
   #page .service_card { background-color: #000; border: 1px solid #202020; }
   .app_card, .large_app_card { background-color: #000; border: 1px solid #181818; }
