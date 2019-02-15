@@ -530,10 +530,19 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
   background: $color-shade-dark !important;
 }
 
-.c-search__container {
-  color: $color-shade-dark !important;
-}
+// .c-search__container {
+//   color: $color-shade-dark !important;
+// }
 
 .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected {
   color: $base-font-color !important;
+}
+
+.c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover {
+  background: darkred !important;
+  color: $base-font-color !important;
+}
+
+.c-message_group .c-channel_name {
+    color: $base-link-color !important;
 }

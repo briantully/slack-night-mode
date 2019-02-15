@@ -1596,8 +1596,9 @@
   .c-search__input_and_close { border-bottom: 1px solid #876484 !important; }
   .c-search_autocomplete__suggestion_item { color: #f0d9ed !important; }
   .ql-container.texty_single_line_input { background: #4d394b !important; }
-  .c-search__container { color: #4d394b !important; }
   .feature_channel_browser_dropdown .channel_browser_sort_container .lfs_input_container .selected, .feature_channel_browser_dropdown .show_which_channels_container .lfs_input_container .selected { color: #f0d9ed !important; }
+  .c-mrkdwn__broadcast--mention, .c-mrkdwn__broadcast--mention:hover, .c-mrkdwn__highlight, .c-mrkdwn__mention, .c-mrkdwn__mention:hover, .c-mrkdwn__user_group--mention, .c-mrkdwn__user_group--mention:hover { background: darkred !important; color: #f0d9ed !important; }
+  .c-message_group .c-channel_name { color: #a3839f !important; }
   .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
   #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
   #flex_contents .heading_text { flex: 1; color: #2C2D30; margin: 0; font-size: 18px; font-weight: 900; line-height: inherit; }
