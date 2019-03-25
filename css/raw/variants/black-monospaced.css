@@ -3304,6 +3304,26 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .c-message_group .c-channel_name { color: #949494 !important; }
 
+.p-threads_view { background: #363636 !important; }
+
+.p-threads_view__default_background { background: #363636 !important; }
+
+.p-threads_view_header__permalink { color: #949494 !important; font-size: 1.1em; }
+
+.p-threads_view_header__participant_list { color: #e6e6e6 !important; }
+
+.p-threads_view_root { border: 1px solid #828282 !important; border-bottom: none !important; }
+
+.p-threads_view_reply { border: 1px solid #828282 !important; border-top: none !important; border-bottom: none !important; }
+
+.p-threads_view__footer { border: 1px solid #828282 !important; border-top: none !important; }
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button { background: #363636 !important; border-left: 1px solid #828282 !important; border-right: 1px solid #828282 !important; }
+
+.c-timestamp__label { color: #949494 !important; }
+
+.unread_group_header_name a { color: #e6e6e6 !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }

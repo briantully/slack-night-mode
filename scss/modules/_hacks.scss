@@ -546,3 +546,50 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .c-message_group .c-channel_name {
     color: $base-link-color !important;
 }
+
+.p-threads_view {
+  background: $color-shade-dark !important;
+}
+
+.p-threads_view__default_background {
+  background: $color-shade-dark !important;
+}
+
+.p-threads_view_header__permalink {
+  color: $base-link-color !important;
+  font-size: 1.1em;
+}
+
+.p-threads_view_header__participant_list {
+  color: $base-font-color !important;
+}
+
+.p-threads_view_root {
+  border: 1px solid $color-shade-lightest !important;
+  border-bottom: none !important;
+}
+
+.p-threads_view_reply {
+  border: 1px solid $color-shade-lightest !important;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.p-threads_view__footer {
+  border: 1px solid $color-shade-lightest !important;
+  border-top: none !important;
+}
+
+.p_threads_view_load_newer_button, .p_threads_view_load_older_button {
+  background: $color-shade-dark !important;
+  border-left: 1px solid $color-shade-lightest !important;
+  border-right: 1px solid $color-shade-lightest !important;
+}
+
+.c-timestamp__label {
+  color: $color-highlight !important;
+}
+
+.unread_group_header_name a {
+    color: $base-font-color !important;
+}
