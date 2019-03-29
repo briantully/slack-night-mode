@@ -575,6 +575,10 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
   border-bottom: none !important;
 }
 
+.p-threads_view_reply--new_reply {
+  background: #012 !important;
+}
+
 .p-threads_view__footer {
   border: 1px solid $color-shade-lightest !important;
   border-top: none !important;

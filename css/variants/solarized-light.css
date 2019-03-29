@@ -1661,6 +1661,7 @@
   .p-threads_view_header__participant_list { color: #586e75 !important; }
   .p-threads_view_root { border: 1px solid #fffefb !important; border-bottom: none !important; }
   .p-threads_view_reply { border: 1px solid #fffefb !important; border-top: none !important; border-bottom: none !important; }
+  .p-threads_view_reply--new_reply { background: #012 !important; }
   .p-threads_view__footer { border: 1px solid #fffefb !important; border-top: none !important; }
   .p_threads_view_load_newer_button, .p_threads_view_load_older_button { background: #fcf3d9 !important; border-left: 1px solid #fffefb !important; border-right: 1px solid #fffefb !important; }
   .c-timestamp__label { color: #2aa198 !important; }
