@@ -3324,6 +3324,8 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link { color: #a09f93 !important; }
 
+.p-threads_flexpane__header_channel_name { color: #6699cc !important; font-size: .8em !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
