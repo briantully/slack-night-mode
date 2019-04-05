@@ -1666,6 +1666,7 @@
   .p_threads_view_load_newer_button, .p_threads_view_load_older_button { background: #4d394b !important; border-left: 1px solid #876484 !important; border-right: 1px solid #876484 !important; }
   .c-timestamp__label { color: #a3839f !important; }
   .unread_group_header_name a { color: #f0d9ed !important; }
+  .c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link { color: #876484 !important; }
   .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
   #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
   #flex_contents .heading_text { flex: 1; color: #2C2D30; margin: 0; font-size: 18px; font-weight: 900; line-height: inherit; }

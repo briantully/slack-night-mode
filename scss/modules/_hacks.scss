@@ -597,3 +597,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .unread_group_header_name a {
     color: $base-font-color !important;
 }
+
+.c-icon_button--light, .c-icon_button--light.c-button-unstyled, .c-icon_button--light:link {
+    color: $color-shade-lightest !important;
+}
