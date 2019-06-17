@@ -3326,6 +3326,14 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .p-threads_flexpane__header_channel_name { color: #268bd2 !important; font-size: .8em !important; }
 
+.c-pillow_file_container { background: #222222 !important; }
+
+.p-file_details__user_meta { color: #003f50 !important; }
+
+.p-file_details__user_link, .p-file_details__user_link:link, .p-file_details__user_link:visited { color: #268bd2 !important; }
+
+.c-pillow_file__post__content code, .c-pillow_file__post__content pre { background-color: #00171d !important; color: chartreuse !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }

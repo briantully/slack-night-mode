@@ -606,3 +606,20 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
   color: $base-link-color !important;
     font-size: .8em !important;
 }
+
+.c-pillow_file_container {
+  background: $color-shade-darker !important;
+}
+
+.p-file_details__user_meta {
+  color: $color-shade-lightest !important;
+}
+
+.p-file_details__user_link, .p-file_details__user_link:link, .p-file_details__user_link:visited {
+  color: $base-link-color !important;
+}
+
+.c-pillow_file__post__content code, .c-pillow_file__post__content pre {
+  background-color: $color-shade-darkest !important;
+  color: chartreuse !important;
+}
