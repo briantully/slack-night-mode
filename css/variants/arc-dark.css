@@ -1549,6 +1549,7 @@
   .menu.p-emoji_picker { background: #1d2027 !important; }
   .c-unified_member .presence.active, .c-unified_member--small .presence.active { color: #75bc49 !important; }
   .p-threads_footer__input--legacy .p-message_input_field .ql-editor, .p-threads_footer__input .p-message_input_field .ql-editor { color: #6b6f79; }
+  .p-threads_footer__input .p-message_input_field { background: #d3dae3 !important; }
   /* .p-channel_sidebar { background: #3B4048; color: rgb(196,198,200); } .p-channel_sidebar__channel, .p-channel_sidebar__link, .p-channel_sidebar__channel:link, .p-channel_sidebar__link:link, .p-channel_sidebar__channel:visited, .p-channel_sidebar__link:visited, .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { color: rgb(196,198,200); } .p-channel_sidebar__channel--selected, .p-channel_sidebar__link--selected, .p-channel_sidebar__channel--selected:link, .p-channel_sidebar__link--selected:link, .p-channel_sidebar__channel--selected:visited, .p-channel_sidebar__link--selected:visited, .p-channel_sidebar__channel--selected:hover, .p-channel_sidebar__link--selected:hover, .p-channel_sidebar__channel--selected + .p-channel_sidebar__close { color: #FFFFFF; } */
   .p-channel_sidebar__channel:hover, .p-channel_sidebar__link:hover { background: rgba(0, 0, 0, 0.15) !important; }
   .p-channel_sidebar__close_container:hover { background: rgba(255, 255, 255, 0.15) !important; }
