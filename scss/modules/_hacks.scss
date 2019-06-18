@@ -625,3 +625,7 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
   background-color: $color-shade-darkest !important;
   color: chartreuse !important;
 }
+
+.c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link {
+    color: lightblue !important;
+}
