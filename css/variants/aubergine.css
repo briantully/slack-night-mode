@@ -1674,6 +1674,8 @@
   .p-file_details__user_link, .p-file_details__user_link:link, .p-file_details__user_link:visited { color: #a3839f !important; }
   .c-pillow_file__post__content code, .c-pillow_file__post__content pre { background-color: #372c36 !important; color: chartreuse !important; }
   .c-member_slug, .c-member_slug--link, .c-mrkdwn__subteam--link { color: lightblue !important; }
+  .c-message_attachment__author_name, .c-message_attachment__author_name.c-link--button, .c-message_attachment__author_name.c-link--button:active, .c-message_attachment__author_name.c-link--button:focus, .c-message_attachment__author_name.c-link--button:hover { color: #f0d9ed !important; }
+  .c-message_attachment__part { color: #a3839f !important; }
   .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
   #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
   #flex_contents .heading_text { flex: 1; color: #2C2D30; margin: 0; font-size: 18px; font-weight: 900; line-height: inherit; }
