@@ -637,3 +637,16 @@ ts-message:hover:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.n
 .c-message_attachment__part {
     color: $color-highlight !important;
 }
+
+
+.p-prefs_modal, .c-fullscreen_modal__content {
+
+  h1, h2, h3, h4 {
+      color: $color-shade-dark !important;
+  }
+
+  .c-label__text {
+      color: $color-shade-dark !important;
+  }
+
+}

@@ -3346,6 +3346,10 @@ ts-message.active:not(.standalone):not(.multi_delete_mode):not(.highlight):not(.
 
 .c-message_attachment__part { color: #949494 !important; }
 
+.p-prefs_modal h1, .p-prefs_modal h2, .p-prefs_modal h3, .p-prefs_modal h4, .c-fullscreen_modal__content h1, .c-fullscreen_modal__content h2, .c-fullscreen_modal__content h3, .c-fullscreen_modal__content h4 { color: #363636 !important; }
+
+.p-prefs_modal .c-label__text, .c-fullscreen_modal__content .c-label__text { color: #363636 !important; }
+
 .flex_menu ul li.highlighted a, .flex_menu:not(.keyboard_active) ul li:hover:not(.disabled) a { background: #f2f2f5; color: #2C2D30; text-shadow: none; }
 
 #details_tab_header .ts_icon_shared_channels { position: relative; right: 0; margin-left: 3px; font-size: 1.3rem; color: #2c2d30; }
